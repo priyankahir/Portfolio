@@ -61,11 +61,6 @@ window.onscroll = () => {
 
 // for mail
 
-const form = document.querySelector('form');
-const fullname = document.getElementById('name');
-const email = document.getElementById('email');
-const phone = document.getElementById('phone');
-const subject = document.getElementById('subject');
-const mess = document.getElementById('message');
+
 
     
