@@ -14,6 +14,7 @@ menuicon.onclick = () => {
 let section = document.querySelector('section');
 let navLinks = document.querySelector('header nav a');
 
+
 window.onscroll = () => {
 
     section.forEach(sec => {
