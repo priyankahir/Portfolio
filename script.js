@@ -68,25 +68,4 @@ const phone = document.getElementById('phone');
 const subject = document.getElementById('subject');
 const mess = document.getElementById('message');
 
-    function sendEmail() {
-        const bodyMessage = `Full Name:${fullname.value}<br> Email:${email.value}
-        <br> Phone Number:${phone.value}<br> Message:${mess.value}`;
-
-        Email.send({
-            Host: "smtp.elasticemail.com",
-            Username: "priyankahir333@gmail.com",
-            Password: "132043C662D65F8DF7B8597FA1096D88DDA1",
-            To: 'priyankahir333@gmail.com',
-            From: "priyankahir333@gmail.com",
-            Subject: subject.value,
-            Body: bodyMessage
-        }).then(
-            message => alert(message)
-        );
-    }
-
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    sendEmail();
-
-});
+    
